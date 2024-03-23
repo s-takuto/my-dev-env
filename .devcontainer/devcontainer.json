@@ -1,0 +1,18 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "competitive-devcontainer",
+	// ubuntu with gcc
+    "build" : {
+        "dockerfile" : "Dockerfile"
+        
+    },
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"formulahendry.code-runner"
+			]
+		}
+	}
+}
